@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+.prueba{position: absolute;
+    display: inline-block;
+	margin-left:10px;
+	background-color:lightblue;
+	width:500px;
+	border:4px double blue;}
+/* 
+    Created on : 1 dic. 2020, 15:44:37
+    Author     : Sammy Guergachi <sguergachi at gmail.com>
+*/
+*{align-content: center;}
+
+div{border-radius: 10px; border:black solid 5px; margin:1em}
+
+iframe{height:95%;width:97% ;border-radius: 10px; border-color:black;}
+
+a:visited{color:black; }
+a:link{color:black; }
+a:hover{color:red; }
+a:active{color:red; }
+
+.section{height:90%;  border:yellow solid;background-color:orange;
+float:left; margin:1em;border:gray solid 5px; align-self:center}
+
+#contenedor{ height:1200px; width:90%; margin:.1em auto; padding:1em; border:black solid 1em; }
+
+#header{height:25%; background-color:lightgray}
+
+#nav{height:10%; position: relative; top:70%;border:gray solid 5px;background-color:orange}
+
+#nav2{height:50%;width:90%;margin:0.75em auto; background-color:white;border:black solid 2px}
+
+#tabla{margin:1em auto}
+
+#cuerpo{height:60%;background-color:lightgray; }
+
+#section1{width:20%;}
+
+#section2{width:72%; float:right}
+
+#footer{height:7%; clear:both;background-color:lightgray}

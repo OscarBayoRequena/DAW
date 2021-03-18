@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified" xml:lang="es">
+    
+    <xs:element name="Minecraft">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mobs" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="mob" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="javaId" type="xs:string" use="required"/>
+
+                                    <xs:attribute name="BEId" type="xs:string" use="required"/>
+                                    
+                                    <xs:attribute name="grupo" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="pasivo"/>
+                                                <xs:enumeration value="neutral"/>
+                                                <xs:enumeration value="hostil"/>
+                                                <xs:enumeration value="jefe"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+
+                                    <xs:sequence>
+                                        <xs:element name="imagen" type="xs:string"/>
+                                        
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        
+                                        <xs:element name="tipo" type="xs:string"/>
+                                        
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                        
+                                        <xs:element name="spawn" type="xs:string"/>
+                                        
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                        
+                                        <xs:element name="stats">
+                                            <xs:complexType>
+                                                <xs:element name="vida" type="xs:string">
+                                                    <xs:simpleType>
+                                                        <xs:restriction>
+                                                            <xs:minInclusive value="0"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                                <xs:element name="ataque">
+                                                    <xs:complexType>
+                                                        <xs:choice>
+                                                            
+                                                            <xs:sequence>
+                                                                <xs:element name="ataqueFacil">
+                                                                    <xs:simpleType base="xs:decimal">
+                                                                        <xs:restriction>
+                                                                            <xs:minExclusive value="0"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="ataqueNormal">
+                                                                    <xs:simpleType base="xs:decimal">
+                                                                        <xs:restriction>
+                                                                            <xs:minExclusive value="0"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="ataqueDificil">
+                                                                    <xs:simpleType base="xs:decimal">
+                                                                        <xs:restriction>
+                                                                            <xs:minExclusive value="0"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            
+                                                            <xs:sequence>
+                                                                <xs:element name="sinDano">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string">
+                                                                            <xs:maxLength value="0"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            
+                                                        </xs:choice>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                 
+                                                <xs:element name="armadura" type="xs:integer" minOccurs="0">
+                                                    <xs:simpleType base="xs:decimal">
+                                                        <xs:restriction>
+                                                            <xs:minExclusive value="0"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                                
+                                            </xs:complexType>
+                                        </xs:element>
+                                        
+                                        <xs:element name="hitbox">
+                                            <xs:complexType>
+                                                <xs:attribute name="alto" type="xs:decimal" use="required"/>
+                                                <xs:attribute name="ancho" type="xs:decimal" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        
+                                        <xs:element name="drops">
+                                            <xs:complexType>
+                                                <xs:choice>
+                                                    <xs:sequence>
+                                                        
+                                                    </xs:sequence>
+                                                    <xs:sequence>
+                                                        
+                                                    </xs:sequence>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                
+            </xs:sequence>            
+        <xs:complexType>
+    </xs:element>
+    
+</xs:schema>

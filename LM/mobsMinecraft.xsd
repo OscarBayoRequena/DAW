@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="drop">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="probabilidad" type="xs:decimal" use="optional"/>
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:element name="minecraft">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="mobs" maxOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="mob" maxOccurs="unbounded">
+                            <xs:complexType>
+                                    
+                                <xs:sequence>
+                                    <xs:element name="imagen" type="xs:string"/>
+                                        
+                                    <xs:element name="nombre" type="xs:string"/>
+                                        
+                                    <xs:element name="tipo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="Ser vivo"/>
+                                                <xs:enumeration value="Artrópodo"/>
+                                                <xs:enumeration value="No muerto"/>
+                                                <xs:enumeration value="Ser vivo acuático"/>
+                                                <xs:enumeration value="Illager"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                     
+                                    <xs:element name="descripcion" type="xs:string"/>
+                                      
+                                    <xs:element name="spawn" type="xs:string"/>
+                                        
+                                    <xs:element name="stats">
+                                        <xs:complexType>
+											<xs:sequence>
+												<xs:element name="vida">
+													<xs:simpleType>
+														<xs:restriction  base="xs:integer">
+															<xs:minInclusive value="1"/>
+															<xs:maxInclusive value="300"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+												<xs:element name="ataque" minOccurs="1" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:choice>
+																
+															<xs:sequence>
+																<xs:element name="ataqueFacil">																		
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minExclusive value="0"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="ataqueNormal">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minExclusive value="0"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																<xs:element name="ataqueDificil">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minExclusive value="0"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+															</xs:sequence>
+															
+															<xs:sequence>
+																<xs:element name="sinDano">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:string">
+																			<xs:maxLength value="0"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+															</xs:sequence>
+															
+														</xs:choice>
+													</xs:complexType>
+												</xs:element>
+												 
+												<xs:element name="armadura" minOccurs="0" maxOccurs="1">
+													<xs:simpleType>
+														<xs:restriction base="xs:integer">
+															<xs:minExclusive value="0"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+											</xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                        
+                                    <xs:element name="hitbox">
+                                        <xs:complexType>
+                                            <xs:attribute name="alto" type="xs:decimal" use="required"/>
+                                            <xs:attribute name="ancho" type="xs:decimal" use="required"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                      
+                                    <xs:element name="drops">
+                                        <xs:complexType>
+                                            <xs:choice>
+											
+                                                <xs:sequence>
+                                                    <xs:element name="drop" type="drop" maxOccurs="unbounded" />
+                                                </xs:sequence>
+												
+                                                <xs:sequence>
+                                                    <xs:element name="noDrop">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:maxLength value="0"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+												
+                                            </xs:choice>
+                                        </xs:complexType>
+                                    </xs:element>
+                                      
+                                    <xs:element name="enlaceMinecraftWiki " type="xs:string"/>
+                                      
+                                </xs:sequence>
+                                    
+									
+									
+									
+								<xs:attribute name="javaId" type="xs:string" use="required"/>
+
+                                <xs:attribute name="BEId" type="xs:string" use="required"/>
+                                    
+                                <xs:attribute name="grupo" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="pasivo"/>
+                                            <xs:enumeration value="neutral"/>
+                                            <xs:enumeration value="hostil"/>
+                                            <xs:enumeration value="jefe"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>                
+        </xs:sequence>            
+    </xs:complexType>
+</xs:element>
+</xs:schema>

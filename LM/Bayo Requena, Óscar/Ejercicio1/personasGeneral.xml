@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="infoGeneral.xsl"?>
+<personas>
+  <persona sexo='varon' relacion='jefe'>
+    <nombre>Juan</nombre>
+    <apellidos>Herrera</apellidos>
+    <nacimiento dia='21' mes='01' anio='1969'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Universidad, 30</calle>
+        <poblacion>Leganes</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28905</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Madrid, 30</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='varon' relacion='familiar'>
+    <nombre>Pedro</nombre>
+    <apellidos>Casas</apellidos>
+    <nacimiento dia='23' mes='01' anio='1953'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Universidad, 10</calle>
+        <poblacion>Leganes</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28905</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Madrid, 20</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='mujer' relacion='familiar'>
+    <nombre>Ana</nombre>
+    <apellidos>Cortés</apellidos>
+    <nacimiento dia='12' mes='02' anio='2002'/>
+    <direcciones>
+      <direccion tipo='personal'>
+        <calle>Ancha, 20</calle>
+        <poblacion>Madrid</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28001</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='mujer' relacion='familiar'>
+    <nombre>María</nombre>
+    <apellidos>Soler</apellidos>
+    <nacimiento dia='03' mes='01' anio='1955'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Aragón, 20</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Palos, 20</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='varon' relacion='trabajo'>
+    <nombre>Santiago</nombre>
+    <apellidos>Márquez</apellidos>
+    <nacimiento dia='21' mes='07' anio='1969'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Galicia, 10</calle>
+        <poblacion>Móstoles</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28910</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Gerona, 20</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='mujer' relacion='trabajo'>
+    <nombre>Laura</nombre>
+    <apellidos>Gómez</apellidos>
+    <nacimiento dia='15' mes='03' anio='1971'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Galicia, 10</calle>
+        <poblacion>Móstoles</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28910</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Madrid, 20</calle>
+        <poblacion>Alcorcón</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28102</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='mujer' relacion='familiar'>
+    <nombre>Mónica</nombre>
+    <apellidos>Rodríguez</apellidos>
+    <nacimiento dia='18' mes='07' anio='2003'/>
+    <direcciones>
+      <direccion tipo='personal'>
+        <calle>Rosales, 90</calle>
+        <poblacion>Móstoles</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28910</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='mujer' relacion='trabajo'>
+    <nombre>Inés</nombre>
+    <apellidos>Suárez</apellidos>
+    <nacimiento dia='07' mes='03' anio='1975'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Cataluña, 80</calle>
+        <poblacion>Alcorcón</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28102</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Gijón, 27</calle>
+        <poblacion>Getafe</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28901</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+  <persona sexo='varon' relacion='trabajo'>
+    <nombre>Ramón</nombre>
+    <apellidos>Díaz</apellidos>
+    <nacimiento dia='30' mes='08' anio='1967'/>
+    <direcciones>
+      <direccion tipo='profesional'>
+        <calle>Avda. Sevilla, 40</calle>
+        <poblacion>Fuenlabrada</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28905</cpostal>
+      </direccion>
+      <direccion tipo='personal'>
+        <calle>Lugo, 70</calle>
+        <poblacion>Alcorcón</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28102</cpostal>
+      </direccion>
+    </direcciones>
+  </persona>
+</personas>

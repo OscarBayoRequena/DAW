@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehiculos>
+    <vehiculo>
+        <marca>Seat</marca>
+        <modelo>León</modelo>
+        <f_fabricacion dia="4" mes="6" anio="2006" />
+        <lugar_fabricacion pais="francia">
+            <localidad>Toulousse</localidad>
+        </lugar_fabricacion>
+        <unidades>5</unidades>
+    </vehiculo>
+    
+    <vehiculo>
+        <marca>Audi</marca>
+        <modelo>A4</modelo>
+        <f_fabricacion dia="24" mes="4" anio="2011" />
+        <lugar_fabricacion pais="alemania">
+            <localidad>Berlin</localidad>
+        </lugar_fabricacion>
+        <unidades>4</unidades>
+    </vehiculo>
+</vehiculos>
+
+

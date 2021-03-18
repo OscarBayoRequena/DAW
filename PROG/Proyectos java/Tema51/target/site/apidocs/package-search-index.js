@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"ejercicios.empresa.controlador"},{"l":"ejercicios.empresa.modelodedatos"},{"l":"ejercicios.ferreteria"},{"l":"ferreteria"},{"l":"Otros"},{"l":"recursos"}]

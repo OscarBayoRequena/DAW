@@ -1,0 +1,14 @@
+
+.enVerde{
+    background-color: green;
+}
+
+.enNaranja{
+    background-color: orange;
+}
+
+body table{border: 2px solid black}
+body table tr{border: 2px solid black}
+body table tr th{border: 2px solid black}
+body table tr td{border: 2px solid black}
+

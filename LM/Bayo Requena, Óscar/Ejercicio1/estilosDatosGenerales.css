@@ -1,0 +1,9 @@
+
+.sinBordes{border:0px}
+.sinBordes tr td {border:0px}
+
+body table{border: 2px solid black}
+body table tr{border: 2px solid black}
+body table tr th{border: 2px solid black}
+body table tr td{border: 2px solid black}
+

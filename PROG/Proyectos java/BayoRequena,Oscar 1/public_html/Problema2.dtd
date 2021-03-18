@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT personas (persona*)>
+
+    <!ELEMENT persona (nombre,apellidos,nacimiento,direcciones)>
+        <!ATTLIST persona sexo ENTITIES(hombre,mujer) #REQUIRED>
+        <!ATTLIST persona relacion ENTITIES(familia,trabajo) #REQUIRED>
+
+        <!ELEMENT nombre (#PCDATA)>
+        
+        <!ELEMENT apellidos (#PCDATA)>
+
+        <!ELEMENT nacimiento EMPTY>
+            <!ATTLIST nacimiento dia PCDATA #REQUIRED>
+            <!ATTLIST nacimiento mes PCDATA #REQUIRED>
+            <!ATTLIST nacimiento anio PCDATA #REQUIRED>
+
+        <!ELEMENT direcciones (direccion+)>
+            
+            <!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
+                <!ATTLIST direccion tipo ENTITIES(profesion,particular) #REQUIRED>
+
+                <!ELEMENT calle (#PCDATA)>
+
+                <!ELEMENT poblacion (#PCDATA)>
+
+                <!ELEMENT provincia (#PCDATA)>
+
+                <!ELEMENT cpostal (#PCDATA)>
+
+
+<!ENTITY hombre "varon">
+<!ENTITY mujer "mujer">
+
+<!ENTITY familia "familiar">
+<!ENTITY trabajo "jefe">
+
+<!ENTITY profesion "profesional">
+<!ENTITY particular "personal">

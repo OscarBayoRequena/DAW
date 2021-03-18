@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+
+<!ELEMENT Minecraft (mobs)>
+    <!ELEMENT mobs (mob*)>
+        <!ELEMENT mob (imagen,nombre,tipo,descripcion,spawn,stats,hitbox,drops,enlaceMinecraftWiki)>
+
+            <!ELEMENT imagen (#CDATA)>
+
+            <!ELEMENT nombre (#PCDATA)>
+
+            <!ELEMENT tipo (#PCDATA)>
+
+            <!ELEMENT descripcion (#PCDATA)>
+
+            <!ELEMENT spawn (#PCDATA)>
+
+            <!ELEMENT stats (vida,ataque,armadura?)>
+
+                <!ELEMENT vida (#PCDATA)>
+
+                <!ELEMENT ataque ((ataqueFacil,ataqueNormal,ataqueDificil)|sinDano)>
+
+                    <!ELEMENT ataqueFacil (#PCDATA)>
+
+                    <!ELEMENT ataqueNormal (#PCDATA)>
+
+                    <!ELEMENT ataqueDificil (#PCDATA)>
+
+                    <!ELEMENT sinDano EMPTY>
+
+
+                <!ELEMENT armadura (#PCDATA)>
+
+            <!ELEMENT hitbox EMPTY>
+
+            <!ELEMENT drops (drop+|noDrop)>
+
+                <!ELEMENT drop (#PCDATA)>
+
+                <!ELEMENT noDrop EMPTY>
+
+            <!ELEMENT enlaceMinecraftWiki (#PCDATA)>
+
+<!ATTLIST mob javaId CDATA #REQUIRED>
+<!ATTLIST mob BEId CDATA #REQUIRED>
+<!ATTLIST mob grupo CDATA #REQUIRED>
+
+
+<!ATTLIST hitbox alto CDATA #REQUIRED>
+<!ATTLIST hitbox ancho CDATA #REQUIRED>
+

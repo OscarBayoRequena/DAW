@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 dic. 2020, 18:32:41
+    Author     : Sammy Guergachi <sguergachi at gmail.com>
+*/
+
+div{background-color:orange; border: black solid 1px}
+img{width:50px;height:50px;  position:relative; top:25%; left:10%; bottom:25%; right:70%;}
+
+
+#contenedor{width:1200px;height:775px;background-color:green; border: none}
+    #cabecera{width:80%;height:15%;margin:3px auto}
+    #cuerpo{width:95%;height:65%;border: none;background-color:green}
+        #contenido{width:69%;height:95%;margin:1em;float:left}
+            iframe{width:90%;height:90%;margin:1.5em ; border:none;}
+        #enlaces{width:25%;height:95%;margin:1em;float:right;border: none;background-color:green}
+            #enlaces1{width:90%;height:47%;margin:5px auto;background-color:orange; border: black solid 1px}
+                #tabla{width:500px;height:300px;border-color:black; position:relative; top:15%; left:25%; bottom:50%; right:50%; border:none}
+            #enlaces2{width:90%;height:47%;margin:5px auto;background-color:orange; border: black solid 1px}
+    #pie{width:95%;height:15%;margin:1em;clear:both;align-content:center}

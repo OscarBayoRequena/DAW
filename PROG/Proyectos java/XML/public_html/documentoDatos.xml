@@ -1,0 +1,3821 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="UTF-8 standalone="no" "?> 
+
+
+<BDsms xmlns :xsi="http://www.w3.org/2001/XMLSchema-instance" xsi :noNamespaceSchemaLocation ="mobsMinecraft.xsd">
+
+-->
+<!DOCTYPE Minecraft SYSTEM "mobsMinecraft.dtd">
+
+<Minecraft>
+	<mobs>
+		<mob javaId="bat" BEId="bat" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/09/Bat.gif/revision/latest/scale-to-width-down/220?cb=20190815021337
+			</imagen>
+			<nombre>
+				Murciélago
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A bat is an ambient flying passive mob that spawns in caves.
+			</descripcion>
+			<spawn>
+				Bats can spawn in groups of 8‌[JE only]/2‌[BE only] in the Overworld at a light level of 3 or less on opaque blocks below layer 63, they also need at least 2 air blocks. In Java Edition, between October 20 and November 3, they require a light level of 6 or less to spawn. On Superflat worlds, bats spawn below the top non-air layer, ignoring the usual layer-63 limitation. 	
+			</spawn>
+			<stats>
+				<vida>6</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.9" ancho="0.5"/>
+			<drops>
+				<noDrop/>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Bat
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="cat" BEId="cat" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Red_Cat.png/revision/latest/scale-to-width-down/200?cb=20181102140654
+			</imagen>
+			<nombre>
+				Gato
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Cats are tameable passive mobs that are found in villages and swamp huts. 
+			</descripcion>
+			<spawn>
+				Villages
+
+				Untamed cats spawn in villages as long as there is at least one villager and four beds. One cat spawns for every four valid beds, with a maximum of 10 cats.
+
+				Cats can spawn every 1200 ticks (1 minute) in a village (5 occupied beds). A random player is selected (including spectators), a random location 8-32 blocks in +/- x/z (based on player location) is chosen and if that is less than 2 chunks from a village with less than 5 cats, a cat spawns there.
+
+				in Bedrock Edition, a village periodically spawns stray cats to fill a quota of 1 cat per 4 owned beds, up to a maximum of 5 cats for 20 or more owned beds. Only owned beds (those currently claimed by a villager) are counted for this purpose. All cats within the village boundaries are counted, including kittens, cats that wander in from outside, and even tamed cats owned by a player. If the number of cats found is short of the quota, the village tries to spawn one cat or kitten within a volume of 16 × 6 × 16 blocks centered on the village center. (This is the same volume used when a village spawns an iron golem.)
+				Swamp Hut
+
+				One untamed black cat generates alongside a witch inside swamp huts upon world generation. This cat never despawns. Additional black cats can spawn within the hut similarly to witches, however require a grass block to do so. Any other cats to spawn within the witch hut (from spawn eggs, breeding and commands without cat type set) always spawn as black.
+				Bedrock Edition
+				25% of cats spawn as kittens. During a full moon, 50% of cats that spawn are black. 	
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.7" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-2 hilo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Cat
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="baby_cat" BEId="baby_cat" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Red_Cat.png/revision/latest/scale-to-width-down/200?cb=20181102140654
+			</imagen>
+			<nombre>
+				Gato
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Cats are tameable passive mobs that are found in villages and swamp huts. 
+			</descripcion>
+			<spawn>
+				Villages
+
+				Untamed cats spawn in villages as long as there is at least one villager and four beds. One cat spawns for every four valid beds, with a maximum of 10 cats.
+
+				Cats can spawn every 1200 ticks (1 minute) in a village (5 occupied beds). A random player is selected (including spectators), a random location 8-32 blocks in +/- x/z (based on player location) is chosen and if that is less than 2 chunks from a village with less than 5 cats, a cat spawns there.
+
+				in Bedrock Edition, a village periodically spawns stray cats to fill a quota of 1 cat per 4 owned beds, up to a maximum of 5 cats for 20 or more owned beds. Only owned beds (those currently claimed by a villager) are counted for this purpose. All cats within the village boundaries are counted, including kittens, cats that wander in from outside, and even tamed cats owned by a player. If the number of cats found is short of the quota, the village tries to spawn one cat or kitten within a volume of 16 × 6 × 16 blocks centered on the village center. (This is the same volume used when a village spawns an iron golem.)
+				Swamp Hut
+
+				One untamed black cat generates alongside a witch inside swamp huts upon world generation. This cat never despawns. Additional black cats can spawn within the hut similarly to witches, however require a grass block to do so. Any other cats to spawn within the witch hut (from spawn eggs, breeding and commands without cat type set) always spawn as black.
+				Bedrock Edition
+				25% of cats spawn as kittens. During a full moon, 50% of cats that spawn are black. 	
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.35" ancho="0.3"/>
+			<drops>
+				<noDrop/>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Cat
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="chicken" BEId="chicken" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Chicken_JE2_BE2.png/revision/latest/scale-to-width-down/150?cb=20190721103652
+			</imagen>
+			<nombre>
+				Gallina
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Chickens are common passive mobs found in grassy biomes. 
+			</descripcion>
+			<spawn>
+				Chickens spawn naturally in the overworld in groups of four on grass blocks[a] with 2 blocks of free space above it at a light level of 9 or more.
+
+				Chickens are more common in jungle hills, jungle edges and modified jungle edges.‌[JE only]
+
+				After the world generation, they spawn individually.
+
+				5% of chickens spawn as babies.
+
+				They require a light level of 7 or more to spawn and are found in groups of two to four.‌[BE only]
+				Chicken Jockey
+				Java Edition
+				Main article: Chicken Jockey
+
+				All baby zombie variants and baby zombified piglins have a 5% chance to spawn riding a chicken, forming a chicken jockey. Because a baby zombie occurs from 5% of zombie spawns, the chicken jockey spawns consist of 0.25% of all zombie spawns in a chicken-free environment; if chickens are present, the chance increases to 0.4875%. A chicken jockey can also be spawned by using the following command:
+
+				/summon minecraft:chicken ~ ~ ~ {isChickenJockey:1b,Passengers:[{id:"minecraft:zombie",IsBaby:1b}]}
+
+				Chicken jockeys may spawn with items equipped. Baby zombified piglin versions of the chicken jockey always wield a golden sword. Harming or killing the chicken does not cause the zombified piglin to attack.
+				Bedrock Edition
+				Baby zombie jockeys no longer spawn riding chickens, but check for nearby adult chickens to mount prior to attacking a player, wandering trader, adult villager, snow golem or iron golem. 
+			</spawn>
+			<stats>
+				<vida>4</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.7" ancho="0.4"/>
+			<drops>
+				<drop>
+					0-2 plumas
+				</drop>
+				<drop>
+					1 pollo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Chicken
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="cod" BEId="cod" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/66/Cod.gif/revision/latest/scale-to-width-down/150?cb=20190924091509
+			</imagen>
+			<nombre>
+				Bacalao
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Cod are common passive fish mobs found in oceans. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Cod spawn underwater in normal, cold, and lukewarm oceans, and their deep variants, in groups of 3-6. Cod need 2 water blocks to spawn.
+				Bedrock Edition
+				Cod spawn underwater 12-32 blocks away from the player in normal, cold, frozen, lukewarm oceans, and their deep variants, in groups of 4-7. In addition, cod spawn only on the surface; that is, there must not be a spawnable block above the spawn location with a non-solid block on top. 
+			</spawn>
+			<stats>
+				<vida>3</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.3" ancho="0.5"/>
+			<drops>
+				<drop>
+					1 bacalao crudo
+				</drop>
+				<drop>
+					1 polvo de hueso
+				</drop>
+				<drop>
+					1-2 huesos
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Cod
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="cow" BEId="cow" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/84/Cow.png/revision/latest/scale-to-width-down/150?cb=20190716001412
+			</imagen>
+			<nombre>
+				Vaca
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A cow is a common passive mob, source of leather, raw beef and milk. Cows are found in grassy biomes. 
+			</descripcion>
+			<spawn>
+				Natural generation
+
+				Herds of 2 to 3 cows spawn on grass blocks at a light level of 9 or higher with at least 2 blocks of space above, except in snowy tundras and wooded badlands plateaus.
+
+				They spawn individually on grass after world generation. A cow spawns inside fowl runs and butchers' houses in villages.
+
+				5% spawn as calves. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.4" ancho="0.9"/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 ternera cruda
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Cow
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="donkey" BEId="donkey" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Chested_Donkey.png/revision/latest/scale-to-width-down/200?cb=20190623145103
+			</imagen>
+			<nombre>
+				Burro
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A donkey is a mob that can be ridden when tamed. 
+			</descripcion>
+			<spawn>
+				1-3 donkeys spawn in plains and only 1 in savannas. 20% of the individual donkeys spawn as foals.
+				Bedrock Edition
+
+				2-6 donkeys spawn only in plains at light level 7 or above.
+				Appearance
+
+				Adult donkeys are 1.4 blocks wide and long, and 1.6 blocks high. Foals start at half the size of adults and in Bedrock Edition, get progressively bigger as they age. Unlike wolves and cats, the appearances of donkeys do not change once they have been tamed, though tamed donkeys may be differentiated by giving them equipment.
+
+				Donkeys are smaller all around than the normal horses and sport long, erect ears. Their manes do not protrude, but rather are drawn directly on the back of their heads and necks. All donkeys have gray-brown coats with darker ankles, ears, manes, and tails. Donkeys can be equipped with a simple saddle, not the full covered armor and they can also be equipped with chests to store up to 15 stacks of items.
+
+				Unlike almost all other mobs, donkeys with equipped saddles or chests do not render these when under the effect of Invisibility. This will not be fixed.[1] 
+			</spawn>
+			<stats>
+				<vida>11</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.5" ancho="1.3965"/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Donkey
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="fox" BEId="fox" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6a/Sitting_Fox.png/revision/latest/scale-to-width-down/137?cb=20190213175541
+			</imagen>
+			<nombre>
+				Zorro
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Foxes are nocturnal passive mobs that spawn commonly in taiga, giant tree taiga, and snowy taiga biomes. They move to villages during the night.
+			</descripcion>
+			<spawn>
+				Foxes spawn in taiga, giant tree taiga, and snowy taiga biomes, in groups of 2–4.
+
+				5% of them spawn as babies.
+
+				When spawned in a snowy biome, foxes are white in color.
+				Holding items
+
+				Foxes have a 20% chance to spawn (via spawn egg or naturally) with one of the following items in their mouth:
+				
+				Emerald 	5%
+				Rabbit's Foot 	10%
+				Rabbit Hide 	10%
+				Egg 	15% 
+				Wheat 	20%
+				Leather 	20%
+				Feather 	20%
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.6" ancho="0.7"/>
+			<drops>
+				<drop>
+					1-2 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Fox
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="horse" BEId="horse" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5d/Creamy_Horse_with_White_Stockings.png/revision/latest/scale-to-width-down/200?cb=20190716122615
+			</imagen>
+			<nombre>
+				Caballo
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Horses are passive mobs that can be ridden when tamed. 
+			</descripcion>
+			<spawn>
+				Horses spawn in plains and savannas in herds of 2–6. For horses, all combinations of color and markings are equally likely. All members of the herd have the same color, but markings may vary. 20% of the individual horses spawn as foals.
+				
+				Villages generate naturally with stables and animal pens containing horses. 
+			</spawn>
+			<stats>
+				<vida>22</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.6" ancho="1.3965"/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Horse
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="mooshroom" BEId="mooshroom" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1c/Red_Mooshroom_JE4.png/revision/latest/scale-to-width-down/150?cb=20200510033824
+			</imagen>
+			<nombre>
+				Vacaseta
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Mooshrooms are mushroom-covered variants of cows exclusive to the rare mushroom fields biome. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Red mooshrooms can spawn in mushroom fields biomes in herds of 4–8 when the light level is 9 or higher and on Mycelium. They do not naturally spawn in any other biome. A red mooshroom transforms into a brown mooshroom (and vice versa) when it is struck by lightning. Brown mooshrooms never spawn naturally.
+				Bedrock Edition
+				Mooshrooms spawn at light level 7 or above in Mushroom Fields and Mushroom Field Shore biomes. 5% of them spawn as babies. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.4" ancho="0.9"/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 ternera cruda
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Mooshroom
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="mule" BEId="mule" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/Saddled_Chested_Mule.png/revision/latest/scale-to-width-down/200?cb=20190623145212
+			</imagen>
+			<nombre>
+				Mula
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A mule is a tameable mob that can be ridden when tamed.
+			</descripcion>
+			<spawn>
+				Mules do not spawn naturally, but they can spawn through cross-breeding a horse with a donkey. Mules cannot breed with other mules. 20% of mule spawn eggs produce foals.
+			</spawn>
+			<stats>
+				<vida>11</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.6" ancho="1.3965 "/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Mule
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="ocelot" BEId="ocelot" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0d/Ocelot.png/revision/latest/scale-to-width-down/200?cb=20181102075937
+			</imagen>
+			<nombre>
+				Ocelote
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Ocelots are rare passive mobs found in jungles. 
+			</descripcion>
+			<spawn>
+				Ocelots spawn above grass blocks or leaves at sea level (y=63 per default) or higher in groups of 1 or 2. These are mostly adults but sometimes ocelots spawn as a kitten. When an adult ocelot spawns, there is a 1⁄7 chance for 2 ocelot kittens to spawn with it; this chance includes any kind of spawning, including spawning naturally, by a spawn egg or a mob spawner.
+				Java Edition
+
+				There is a 1⁄3 chance for a spawn attempt to fail in jungles and 100% in bamboo jungles or jungle edges. While ocelots are passive mobs, natural spawning considers the hostile mob cap rather than the much-lower (ten times less) passive mob cap.[1]
+				Bedrock Edition
+				Ocelots are found in all kinds of jungles. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.7" ancho="0.6"/>
+			<drops>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Ocelot
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="parrot" BEId="parrot" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fe/Cyan_Parrot.png/revision/latest/scale-to-width-down/150?cb=20170720112749
+			</imagen>
+			<nombre>
+				Loro
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Parrots are rare tameable mobs found in jungles. Parrots can imitate sounds of nearby hostile mobs and can perch on the player's shoulders. 
+			</descripcion>
+			<spawn>
+				Parrots rarely spawn, with a 0.2 chance in jungle biomes. They can be found in groups of 1–2 at level 70 or above. They spawn only on logs, leaves and grass blocks. 
+			</spawn>
+			<stats>
+				<vida>6</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.9" ancho="0.5"/>
+			<drops>
+				<drop>
+					1-2 plumas
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Parrot
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="pig" BEId="pig" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1a/Pig_JE3_BE2.png/revision/latest/scale-to-width-down/150?cb=20191229170841
+			</imagen>
+			<nombre>
+				Cerdo
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A pig is a common passive mob found in grassy biomes. Pigs drop porkchops when killed, and can be equipped with a saddle and ridden. 
+			</descripcion>
+			<spawn>
+				Pigs spawn in groups of 1–4 above grass blocks at a light level of 7 or more in any grassy overworld place except in snowy tundras and wooded badlands plateaus. Individuals may spawn on grass after the world generation.
+
+				In villages, a pig spawns in animal pens, stables, and in butcher house backyards.
+
+				5% of pigs spawn as piglets. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.9" ancho="0.9"/>
+			<drops>
+				<drop>
+					1-3 chuletas de cerdo crudas
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Pig
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="baby_piglin" BEId="baby_piglin" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a9/Baby_Piglin.png/revision/latest/scale-to-width-down/120?cb=20200811133858
+			</imagen>
+			<nombre>
+				Piglin bebe
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Baby piglins are neutral mobs found in the Nether.
+			</descripcion>
+			<spawn>
+				Piglins spawn in groups of 4 in nether wastes and crimson forest biomes, and within bastion remnants, at a light level of 11 or less in Java Edition, or 7 or less in Bedrock Edition, even in Peaceful mode. Each piglin has a 20%‌[Java Edition only] or 5%‌[Bedrock Edition only] chance of spawning as a baby. 
+			</spawn>
+			<stats>
+				<vida>16</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.975" ancho="0.3"/>
+			<drops>
+				<drop>
+					1 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Piglin
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="baby_polar_bear" BEId="baby_polar_bear" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/78/Polar_Bear.png/revision/latest/scale-to-width-down/280?cb=20190811203810
+			</imagen>
+			<nombre>
+				Oso polar
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Polar bears are mobs that live in icy biomes.
+			</descripcion>
+			<spawn>
+				Polar bears spawn above grass or ice in snowy tundra, snowy mountains, ice spikes, regular and deep frozen ocean biomes in groups of up to two at light level 7 or higher. If there is a group, the second polar bear is a cub.
+				
+				They can also spawn in frozen rivers and legacy frozen oceans in Bedrock Edition. 
+			</spawn>
+			<stats>
+				<vida>30</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.7" ancho="0.7"/>
+			<drops>
+				<noDrop/>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Polar_Bear
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="pufferfish" BEId="pufferfish" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/45/Pufferfish_small.gif/revision/latest/scale-to-width-down/150?cb=20190924105630
+			</imagen>
+			<nombre>
+				Pez globo
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Pufferfish are mobs found in oceans. They defend themselves by dealing damage and inflicting poison to nearby players and certain mobs. 
+			</descripcion>
+			<spawn>
+				In Java Edition, pufferfish spawn in groups of 1-3 in warm, lukewarm and deep lukewarm ocean biomes. In Bedrock Edition, fish spawn underwater at around 12–32 blocks away from the player in groups of 3–5 in warm ocean biomes. Pufferfish spawn only on the surface; that is, there must not be a spawnable block above the spawn location with a non-solid block on top. 
+			</spawn>
+			<stats>
+				<vida>3</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.35" ancho="0.35"/>
+			<drops>
+				<drop>
+					1 pez globo
+				</drop>
+				<drop>
+					1 polvo de hueso
+				</drop>
+				<drop>
+					1-2 huesos
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Pufferfish
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="rabbit" BEId="rabbit" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Killer_Bunny_JE5.png/revision/latest/scale-to-width-down/150?cb=20191227070613
+			</imagen>
+			<nombre>
+				Conejo
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A rabbit is an uncommon passive mob. Rabbits are a source of rabbit's foot, rabbit hide, and raw rabbit. 
+			</descripcion>
+			<spawn>
+				Creamy rabbits are common and are found only in deserts and in their variants with oases.
+
+				Other rabbit colors are rarer and found in flower forests, taigas, and snowy biomes.
+
+				In all these places, groups of an adult and one to two babies spawn.
+
+				Rabbits spawn on either Grass Block, Snow[1], or Sand.
+
+				In flower forests from Bedrock Edition, up to three kits spawn and are common. Also for this game version, rabbits spawn in frozen watery biomes: snowy beaches, frozen oceans, and legacy frozen oceans.
+
+				For Java Edition, rabbits are also found in giant tree taigas.
+
+				In taigas, wolves and foxes are also found. If left alone, these may quickly kill rabbits, so rabbits are generally more plentiful in the desert, flowery, and icy biomes.
+
+				The Killer Bunny does not spawn naturally and must instead be spawned using the /summon command, although it is exclusive to Java Edition. 
+			</spawn>
+			<stats>
+				<vida>3</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.5" ancho="0.4"/>
+			<drops>
+				<drop>
+					0-1 cuero de conejo
+				</drop>
+				<drop>
+					0-1 conejo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Rabbit
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="salmon" BEId="salmon" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Salmon.gif/revision/latest/scale-to-width-down/150?cb=20190923182046
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Salmon.gif/revision/latest?cb=20190923182046
+			</imagen>
+			<nombre>
+				Salmon
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Salmon are common passive mobs found in oceans and rivers
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Salmon spawn in groups of 1–5 in cold or frozen oceans, as well as their deep variants. They also spawn in rivers and frozen rivers.
+				Bedrock Edition
+				Salmon spawn underwater at 12–32 blocks away from the player. Salmon spawn in groups of 3–5 in lukewarm, cold, normal, frozen oceans, their deep variants and rivers (including frozen rivers). In addition, salmon spawn on the surface (i.e., there must not be a spawnable block above the spawn location with a non-solid block on top). Salmon spawn in small, normal, and large sizes. 31.5% spawn as small, 52.6% spawn as normal, and 15.7% spawn as large. 
+			</spawn>
+			<stats>
+				<vida>3</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.25" ancho="0.25"/>
+			<drops>
+				<drop>
+					1 salmon crudo
+				</drop>
+				<drop>
+					1 polvo de hueso
+				</drop>
+				<drop>
+					1-2 huesos
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Salmon
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="sheep" BEId="sheep" grupo="sheep" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fe/Lime_Sheep_JE4.png/revision/latest/scale-to-width-down/160?cb=20190809163438
+			</imagen>
+			<nombre>
+				Oveja
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Sheep are common passive mobs found in many of the grassy biomes that supply wool and mutton. 
+			</descripcion>
+			<spawn>
+				The majority of sheep are white, with an 81.836% chance of spawning. The light gray, gray and black sheep each have a 5% chance of spawning, or a 15% chance collectively. Brown sheep have an uncommon 3% chance to spawn. Pink sheep have a rare chance (0.164%) of spawning naturally. 5% of all sheep spawn as babies. 
+			</spawn>
+			<stats>
+				<vida>8</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.3" ancho="0.9"/>
+			<drops>
+				<drop>
+					1 de lana del color correspondiente
+				</drop>
+				<drop>
+					1-2 chuletas de cordero crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Sheep
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="skeleton_horse" BEId="skeleton_horse" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/de/Skeleton_Horse.png/revision/latest/scale-to-width-down/200?cb=20190826120115
+			</imagen>
+			<nombre>
+				Caballo esqueleto
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Skeleton horses are undead variants of regular horses. 
+			</descripcion>
+			<spawn>
+				Skeleton horses spawn only from "skeleton traps”.
+
+				A "skeleton trap" horse is a skeleton horse spawned from a fraction of lightning strikes during a thunderstorm or by chance (0.75–1.5% chance on Easy, 1.5–4% on Normal, and 2.25–6.75% on Hard, depending on regional difficulty). It despawns after 15 minutes if not triggered.
+
+				When a player comes within 10 blocks of the skeleton trap horse, lightning strikes it. This lightning cannot start fires or damage nearby entities. When struck, the skeleton trap horse transforms into a skeleton horseman: a skeleton riding a skeleton horse. It also spawns three additional skeleton horsemen in the vicinity. 
+			</spawn>
+			<stats>
+				<vida>15</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.6" ancho="1.3965"/>
+			<drops>
+				<drop>
+					0-2 huesos
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Skeleton_Horse
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="snow_golem" BEId="snow_golem" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c2/Snow_Golem.png/revision/latest/scale-to-width-down/150?cb=20190805174855
+			</imagen>
+			<nombre>
+				Golem de nieve
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A snow golem is a snowman-like utility mob that helps defend against hostile and neutral mobs.
+			</descripcion>
+			<spawn>
+				To create a snow golem, the player must stack two snow blocks, and then place, or dispense, a carved pumpkin, a jack o'lantern or an uncarved pumpkin‌[Bedrock Edition only]. The building pattern can also work when arranged sideways or upside-down, as long as the pumpkin is the last one placed. The player can also place the pattern in any order with an uncarved pumpkin, then use shears on the pumpkin to create a snow golem.
+
+				The snow golem spawns at the location of the pumpkin when created horizontally
+
+				Endermen are capable of creating snow golems by placing the necessary blocks, although this is an extremely rare event because they do not do so deliberately.[1] 
+			</spawn>
+			<stats>
+				<vida>4</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.9" ancho="0.7"/>
+			<drops>
+				<drop>
+					0-15 bolas de nieve
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Snow_Golem
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="squid" BEId="squid" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ce/Squid.gif/revision/latest/scale-to-width-down/250?cb=20190925181721
+			</imagen>
+			<nombre>
+				Calamar
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Squid are passive mobs that spawn in water. 
+			</descripcion>
+			<spawn>
+				In Java Edition two to four squid can spawn in water, as long as the biome is a river or ocean biome variant from Y-level 46 to 63. In Bedrock Edition two to four squid can spawn in ocean biomes, and two squid can spawn in river biomes, at any Y-level; and squid have a 5% chance to spawn as babies. In addition, squid spawn only on the surface, i.e. there must not be a solid or spawnable block above the spawn location. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.8" ancho="0.8"/>
+			<drops>
+				<drop>
+					1-3 sacos de tinta
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Squid
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="strider" BEId="strider" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a7/Strider_Shiver_JE3.gif/revision/latest/scale-to-width-down/150?cb=20200618080837
+			</imagen>
+			<nombre>
+				Lavagante
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Striders are passive mobs native to the Nether. They can walk/stride on lava and be saddled by the player. A warped fungus on a stick is needed to control a strider, similar to how a pig is controlled by a carrot on a stick. 
+			</descripcion>
+			<spawn>
+				In the Nether, two to four striders spawn on spaces of lava that are two blocks tall with an air block above. Because striders are the only passive mob in the nether, spawning attempts are made every 400 game ticks. For every strider that spawns, there is a 1 in 10 chance of an additional baby strider to spawn riding on top of the previous strider. A baby strider on the adult strider continues to grow although it does not dismount the adult strider once it has grown up. Zombified piglins have a 1 in 30 chance of spawning on top of a strider, creating a strider jockey. If this happens, the strider spawns with a saddle and the zombified piglin spawns carrying a warped fungus on a stick. The zombified piglin also does not despawn (except on Peaceful difficulty). 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.7" ancho="0.9"/>
+			<drops>
+				<drop>
+					2-5 hilo
+				</drop>
+				<drop>
+					1-2 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Strider
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="tropical_fish" BEId="tropical_fish" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/58/Blue_Tang.png/revision/latest/scale-to-width-down/70?cb=20181015003153
+			</imagen>
+			<nombre>
+				Pez tropical
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Tropical Fish are common passive mobs found in oceans. There are 3,584 possible variants. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				In Java Edition, tropical fish spawn in lukewarm, warm and deep lukewarm oceans in groups of 8 at 24 (cylindrical) to 64 (spherical) blocks away from the player, with random patterns (see below).
+				Bedrock Edition
+				In Bedrock Edition, fish spawn underwater at 12-32 blocks away from the player. Tropical fish spawn only in warm ocean biomes, in groups of 3-5 for the same preset pattern, and in groups of 1-3 for a random pattern. In addition, tropical fish only spawn on the surface (i.e., there must not be a spawnable block above the spawn location with a non-solid block on top). 
+			</spawn>
+			<stats>
+				<vida>3</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.4" ancho="0.5"/>
+			<drops>
+				<drop>
+					1 pez tropical
+				</drop>
+				<drop>
+					1 polvo de hueso
+				</drop>
+				<drop>
+					1-2 huesos
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Tropical_Fish
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="turtle" BEId="turtle" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e9/Turtle.png/revision/latest/scale-to-width-down/240?cb=20180703145237
+			</imagen>
+			<nombre>
+				Tortuga
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A turtle is a common passive mob found in beach and ocean biomes. 
+			</descripcion>
+			<spawn>
+				Turtles spawn on the sand in the Overworld on beaches with daylight, but not in its snowy variant or stone shores, occasionally in small groups of up to 5 individuals.
+
+				10% of turtles spawned are babies.
+
+				In Java Edition, turtles spawn at light levels greater than 8 and below 4 blocks above sea level (typically 62), on the sand.
+
+				In Bedrock Edition, turtles spawn in groups of 2–6, at light level 7 or higher, at Y=60–67. 
+			</spawn>
+			<stats>
+				<vida>30</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="0.4" ancho="1.2"/>
+			<drops>
+				<drop>
+					0-2 alga marina
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Turtle
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="villager" BEId="villager" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Plains_Villager_Base.png/revision/latest/scale-to-width-down/135?cb=20191229172213
+			</imagen>
+			<nombre>
+				Aldeano
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Villagers are passive mobs that inhabit villages, work at their professions, breed, and interact. Their outfit varies according to their occupation and biome. A player can trade with villagers using emeralds as currency. 
+			</descripcion>
+			<spawn>
+				Natural generation
+
+				Villagers can be found in villages, which spawn in several biomes such as plains, snowy tundras, savannas, deserts, taigas, and snowy taigas. A cleric villager and cleric zombie villager spawn locked up in the basements of igloos (if the basement generates,) under the carpet of the floor. In Bedrock Edition, the villager and zombie villager inside igloo basements have random professions instead of always being clerics.
+				Curing
+				See also: Zombie Villager § Curing
+
+				When a zombie villager is cured, it transforms into a villager. The villager retains the profession it had as a zombie, if it had one. Otherwise, it adopts a randomly chosen profession‌[Bedrock Edition only]. The cured villager offers its maximum discount on each of its trades. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop/>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Villager
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="wandering_trader" BEId="wandering_trader" grupo="pasivo" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/52/Wandering_Trader.png/revision/latest/scale-to-width-down/150?cb=20200310000215
+			</imagen>
+			<nombre>
+				Vendedor ambulante
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				The wandering trader is a passive mob found randomly across the world. It can trade, making natural items more available, less dangerous to obtain, and in some cases, renewable. 
+			</descripcion>
+			<spawn>
+				The wandering trader appears randomly across the world with 2 leashed trader llamas. In Bedrock Edition, wandering traders can also spawn near bells.
+
+				At any time, there can be only one wandering trader naturally spawned in loaded chunks. However, it is possible to have more than one wandering trader present by having one spawn in loaded chunks, while having another in unloaded chunks. After 24000 ticks (20 real-life minutes, or 1 Minecraft day) have passed since the world is created, the game attempts to spawn a wandering trader.[note 1] If there are no wandering traders currently in any loaded chunks, the game tries to spawn a new wandering trader after every following 24000 ticks, within a 48-block radius of a player. The first spawn attempt has a 2.5% chance of success; if it fails, after another 24000 ticks another spawn attempt is made with a 5% chance of success. If that fails, for all subsequent spawn attempts the chance caps at 7.5%. On average, it takes 10.411 Minecraft days (or 3.5 real-life hours) for a wandering trader to spawn. After 48000 or 72000 ticks, the trader despawns, even when named, along with its trader llamas, resetting the cycle.
+
+				In Bedrock Edition, when using spawn eggs or the /summon command to spawn a wandering trader, llamas always spawn with it. Wandering traders never spawn if /mobevent minecraft:wandering_trader is set to false.
+
+				In Java Edition, wandering traders never spawn if /gamerule doTraderSpawning is set to false.
+
+				When playing on a remote island, wandering traders usually spawn in the water. The game prefers spawning them on the world surface, but they also spawn underground if the player is sufficiently deep and the spawn volume is large enough. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<noDrop/>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Wandering_Trader
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="bee" BEId="bee" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7c/Bee_types.gif/revision/latest/scale-to-width-down/150?cb=20200414135118
+			</imagen>
+			<nombre>
+				Abeja
+			</nombre>
+			<tipo>
+				Artrópodo
+			</tipo>
+			<descripcion>
+				Bees are flying neutral mobs that live in bee nests and beehives. If provoked, bees attack in a swarm to "sting" the player and inflict poison. 
+			</descripcion>
+			<spawn>
+				Naturally generated bee nests generate with 3 bees in them.
+
+				Bee nests generate in the following biomes with different chances
+				
+				Saplings
+				Oak and birch trees grown from saplings that are within 2 blocks of any flower have a 5% chance to grow with a bee nest having 1–3 bees in it. 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.6" ancho="0.7"/>
+			<drops>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Bee
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="cave_spider" BEId="cave_spider" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Cave_Spider.png/revision/latest/scale-to-width-down/150?cb=20191229160443
+			</imagen>
+			<nombre>
+				Araña de cueva
+			</nombre>
+			<tipo>
+				Artrópodo
+			</tipo>
+			<descripcion>
+				Cave spiders are small, venomous variants of spiders that live in mineshafts. 
+			</descripcion>
+			<spawn>
+				Spawners
+				Cave spiders spawn from spawners in mineshafts at a light level of 7 or less. They are surrounded by cobwebs in corridors. 
+			</spawn>
+			<stats>
+				<vida>12</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.5" ancho="0.7"/>
+			<drops>
+				<drop>
+					0-2 hilo
+				</drop>
+				<drop>
+					0-1 ojo de araña
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Cave_Spider
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="dolphin" BEId="dolphin" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/70/Dolphin.gif/revision/latest/scale-to-width-down/215?cb=20191115084324
+			</imagen>
+			<nombre>
+				Delfin
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Dolphins are neutral mobs that live in non-frozen oceans and grant a speed boost to players that swim near them. 
+			</descripcion>
+			<spawn>
+				Dolphins are found in groups (pods) of 3-5 in all ocean biomes, except frozen oceans and cold oceans. In Java Edition, they spawn between (exclusively) level 45 and the sea level of the world. Dolphins continuously spawn as long as their spawn requirements are met, similar to squid.
+				
+				10% of dolphins spawn as babies.‌[Bedrock Edition only] 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.6" ancho="0.9"/>
+			<drops>
+				<drop>
+					0-1 bacalao crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Dolphin
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="enderman" BEId="enderman" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/28/Enderman.png/revision/latest/scale-to-width-down/300?cb=20191229170629
+			</imagen>
+			<nombre>
+				Enderman
+			</nombre>
+			<tipo>
+				Neutral
+			</tipo>
+			<descripcion>
+				Endermen are tall, black neutral mobs from the End that have the ability to teleport and pick up blocks.
+			</descripcion>
+			<spawn>
+				An Enderman can spawn in areas with light level 7 or less (11 or less in the End) on any solid surface having at least three empty spaces above. They are the only mob that spawns in all 3 dimensions.
+				Overworld
+
+				Endermen spawn uncommonly on land and in caves in hauntings (groups) of two. They can rarely spawn in hauntings of three.
+				Nether
+
+				Single Endermen spawn rarely in nether wastes and soul sand valleys, and frequently in warped forests.
+				End
+				Endermen spawn commonly in hauntings of up to four in the end islands. They also spawn frequently on the End's main island. Sometimes, Endermen are found on the end ships floating about the end cities. 
+			</spawn>
+			<stats>
+				<vida>40</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>7</ataqueNormal>
+					<ataqueDificil>10</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="2.9" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-1 perla de enderman
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Enderman
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="iron_golem" BEId="iron_golem" grupo="" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/24/Iron_Golem_Cracked_Low.png/revision/latest/scale-to-width-down/150?cb=20191017173528
+			</imagen>
+			<nombre>
+				Golem de hierro
+			</nombre>
+			<tipo>
+				Neutral
+			</tipo>
+			<descripcion>
+				An iron golem is a large, strong, neutral utility mob that defends players and villagers. 
+			</descripcion>
+			<spawn>
+				Villages
+
+				In Java Edition, villagers can summon iron golems, either when they are gossiping or panicking. When a villager tries to summon a golem, up to 10 attempts are made to spawn a golem within a 16×13×16 box centered on the block the villager is standing on (block position +8/-8 blocks along x/z axes and +6/-6 blocks along y axis). A y column is picked and then the topmost block and directly under the sky in that column is selected that is air, water, or lava, and has a "solid-blocking" block underneath, or block at y=+6 if none such is available in that column is selected. The target location is then checked whether the block underneath has a solid top surface (which is not the same as "solid-blocking"). The target block and 2 blocks above must not be a full block, be redstone-powered nor be rails, and the two blocks above must not be water. This means the iron golem can spawn inside 1-deep water or inside blocks like half-slabs, fences, and carpets (if other checks pass). Adjacent blocks are relevant, so golems do spawn partially inside adjacent solid blocks.[1] However, the spawning iron golem still must not collide with any existing entities.
+
+				In Bedrock Edition, an iron golem can spawn naturally when a village first generates in the world. Iron golems also spawn in villages having at least 20 beds and 10 villagers, in a 16×6×16 volume around the village center defined by a bed, a bell, or another meeting point. For a village to spawn iron golems, 75% of the villagers in the village must have worked in the past day, 100% of the villagers must be linked to a bed, and a player must be within 80 blocks of the village horizontally and within 44 blocks vertically. The chance of attempting a spawn is 1⁄700 per game tick, which averages to one spawn attempt every 35 seconds. Iron golems can spawn provided the 2×4×2 space above the spawn point (that is, horizontally centered on the NW corner of the block it spawns on) contains only non-solid blocks, and the block it spawns on is solid. 
+				
+				Creation
+				
+				Iron golems are created by placing four iron blocks in a T shape (as shown in the image), and then placing a carved pumpkin, jack o'lantern or pumpkin‌[BE only] on top of the center upper block. The pumpkin may be placed by the player, a dispenser or an enderman, but it must be placed last. It needs space around it to be able to spawn and cannot spawn in a confined area. Alternatively, the blocks can be placed in any order with an uncarved pumpkin; the player can shear the pumpkin to spawn the golem. When successfully transformed, it is naturally passive toward all players under all circumstances. It can, however, attack the player’s tamed wolves, if punched accidentally, but it never directly attacks the player.
+
+				The block arrangement can be placed upright, lying down, or upside-down. The four empty spaces in the diagram (above and below each of the arms) must be air blocks. Any non-air block (including blocks such as snow layers, tall grass, and water) present in any of the empty spaces prevent the golem from spawning.
+
+				Like other constructed mobs, iron golems always spawn facing south. Their large size may cause them to take suffocation damage from nearby solid blocks at the level of their head. 
+				
+				Pillager outposts
+				
+				Iron golems can also be found surrounding pillager outposts, confined inside dark oak cages. When freed, they can help the player by attacking any nearby pillagers. 
+			</spawn>
+			<stats>
+				<vida>100</vida>
+				<ataque>
+					<ataqueFacil>8</ataqueFacil>
+					<ataqueNormal>14</ataqueNormal>
+					<ataqueDificil>22</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="2.7" ancho="1.4"/>
+			<drops>
+				<drop>
+					3-5 lingotes de hierro
+				</drop>
+				<drop>
+					0-2 amapolas
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Iron_Golem
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="llama" BEId="llama" grupo="neutral" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				Llama
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Llamas are neutral mobs that can be tamed and used to transport large shipments of items. 
+			</descripcion>
+			<spawn>
+				Llamas spawn at light level 7 or above. They naturally spawn in savanna biomes in herds of 4 llamas and in mountains biomes in herds of 4 to 6 llamas. They come in four variants of coat colors: brown, cream, white, gray. Wandering traders always spawn with two leashed trader llamas.
+
+				10% of llamas spawn as babies.
+
+				In Bedrock Edition, there is no spawn egg for trader llamas. They always spawn when a wandering trader is spawned using a spawn egg or by using the /summon command, although a trader llama can be summoned using /summon llama ~ ~ ~ minecraft:from_wandering_trader. 
+			</spawn>
+			<stats>
+				<vida>22</vida>
+				<ataque>
+					<ataqueFacil>1</ataqueFacil>
+					<ataqueNormal>1</ataqueNormal>
+					<ataqueDificil>1</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.87" ancho="0.9"/>
+			<drops>
+				<drop>
+					0-2 cuero
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Llama
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="piglin" BEId="piglin" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Piglin_Attacking_with_melee_weapon.png/revision/latest/scale-to-width-down/200?cb=20200531214111
+			</imagen>
+			<nombre>
+				Piglin
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Piglins are neutral mobs found in the Nether. They attack players on sight unless the player is equipped with at least one piece of golden armor. Players can use gold ingots to barter with them for various items. 
+			</descripcion>
+			<spawn>
+				Piglins spawn in groups of 4 in nether wastes and crimson forest biomes, and within bastion remnants, at a light level of 11 or less in Java Edition, or 7 or less in Bedrock Edition, even in Peaceful mode. Each piglin has a 20%‌[Java Edition only] or 5%‌[Bedrock Edition only] chance of spawning as a baby. 
+			</spawn>
+			<stats>
+				<vida>16</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>8</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-1 espada de oro
+				</drop>
+				<drop>
+					0-1 ballesta
+				</drop>
+				<drop>
+					6-8
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Piglin
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="panda" BEId="panda" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Panda_JE1_BE1.png/revision/latest/scale-to-width-down/280?cb=20200514014922
+			</imagen>
+			<nombre>
+				Panda
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A panda is a rare mob that resides in jungles whose behavior is neutral, but can sometimes be passive or hostile. Baby pandas and pandas that enter love mode are passive to players. Adult pandas are neutral to players; it is not known if they are also neutral to other mobs. 
+			</descripcion>
+			<spawn>
+				Pandas are very rare and spawn in groups of 1–2 in jungle biomes at the surface on grass blocks with at least two-block space above them at a light level of 9 or more. They are a bit more common in bamboo jungles.
+
+				Pandas spawn with a randomized personality, with the normal one being the most common and the brown variant being the rarest.
+
+				5% of pandas spawn as babies. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>9</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.25" ancho="1.3"/>
+			<drops>
+				<drop>
+					1 bambú
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Panda
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="polar_bear" BEId="polar_bear" grupo="neutral" >
+			<imagen>
+				https://minecraft.gamepedia.com/File:Polar_Bear.png
+			</imagen>
+			<nombre>
+				Oso polar
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Polar bears are neutral mobs that live in icy biomes. 
+			</descripcion>
+			<spawn>
+				Polar bears spawn above grass or ice in snowy tundra, snowy mountains, ice spikes, regular and deep frozen ocean biomes in groups of up to two at light level 7 or higher. If there is a group, the second polar bear is a cub.
+
+				They can also spawn in frozen rivers and legacy frozen oceans in Bedrock Edition. 
+			</spawn>
+			<stats>
+				<vida>30</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>5</ataqueNormal>
+					<ataqueDificil>8</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.4" ancho="1.4"/>
+			<drops>
+				<drop>
+					0-2 bacalao crudo
+				</drop>
+				<drop>
+					0-2 salmón crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Polar_Bear
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="spider" BEId="spider" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Spider_JE4_BE3.png/revision/latest/scale-to-width-down/150?cb=20200108012105
+			</imagen>
+			<nombre>
+				Araña
+			</nombre>
+			<tipo>
+				Artrópodo
+			</tipo>
+			<descripcion>
+				Spiders are common neutral mobs that have the unique ability to climb walls. 
+			</descripcion>
+			<spawn>
+				1–4 spiders spawn in a 3×3×1.5‌[JE only] (2×2×1‌[BE only]) space on an opaque block in the Overworld at a light level of 7 or less. The top blocks can be transparent, but not solid.
+				
+				A spider spawns in leaves provided that there are 3×3×2 spaces around as forested biomes have a greater amount of spiders; they do not spawn in groups.‌[BE only] 
+				
+				1–4 spiders spawn in a 3×3×1.5‌[JE only] (2×2×1‌[BE only]) space on an opaque block in the Overworld at a light level of 7 or less. The top blocks can be transparent, but not solid.
+
+				A spider spawns in leaves provided that there are 3×3×2 spaces around as forested biomes have a greater amount of spiders; they do not spawn in groups.‌[BE only] 
+				
+				Status effects
+				
+				On hard difficulty, spiders occasionally spawn with status effects. For each pack spawn, there is a (10×clamped regional difficulty)% chance of the game applying a status effect. This does not apply to cave spiders. If it decides to do so, then it selects the effect. The spider can spawn with following effects:
+				
+				Speed (40% chance)
+				Strength (20% chance)
+				Regeneration (20% chance)
+				Invisibility (20% chance)
+				
+				The effect is then applied to all entities within the pack, lasting for about 3.4 years[1] . If the Invisibility status effect is applied to a spider, its eyes remain visible, similar to invisible endermen. 
+			</spawn>
+			<stats>
+				<vida>16</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.9" ancho="1.4"/>
+			<drops>
+				<drop>
+					0-2 hilo
+				</drop>
+				<drop>
+					0-1 ojo de araña
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Spider
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="wolf" BEId="wolf" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d9/Sitting_Wolf.png/revision/latest/scale-to-width-down/150?cb=20200531094817
+			</imagen>
+			<nombre>
+				Lobo
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Wolves are neutral mobs that can be tamed. When tamed it's health points are increased to 20
+			</descripcion>
+			<spawn>
+				Wolves spawn naturally in forests, taigas, giant tree taigas and snowy taigas, along with all variants of these biomes (with the exception of flower forests), in packs of 4, where 10% spawn as puppies.
+
+				Naturally-spawned wolves are untamed and become hostile if attacked by the player. 
+			</spawn>
+			<stats>
+				<vida>8</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>4</ataqueNormal>
+					<ataqueDificil>6</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.85" ancho="0.6"/>
+			<drops>
+				<drop>
+					1-3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Wolf
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="zombified_piglin" BEId="zombified_piglin" grupo="neutral" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/54/Zombified_Piglin_JE9.png/revision/latest/scale-to-width-down/150?cb=20201223164741
+			</imagen>
+			<nombre>
+				Piglin zombificado
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Zombified piglins are undead, neutral mobs that inhabit the Nether. A zombified piglin becomes hostile when it or another nearby zombified piglin is attacked. 
+			</descripcion>
+			<spawn>
+				Zombified piglins can spawn in nether wastes and crimson forests, nether portals, from pigs struck by lightning or from piglins or piglin brutes in the Overworld or in the End. They have a 5% chance of spawning as baby zombified piglins. Zombified piglins and piglins do not spawn on top of nether wart blocks or shroomlights.
+
+				A baby zombified piglin has a 5% chance of spawning as a chicken jockey.‌[JE only] An adult zombified piglin can also spawn riding a Strider above lava, holding a Warped Fungus on a Stick.
+
+				All zombified piglins spawn with a golden sword, which has a small chance of being enchanted in Normal or Hard modes, up to 25%. This chance varies depending on the regional difficulty as the sword's enchantment is from 5 to 23 levels.
+
+				On Halloween (October 31), zombified piglins have a 22.5% chance of spawning with a pumpkin or a 2.5% chance of spawning with a jack o'lantern equipped as headgear.‌[JE only]
+				Nether
+
+				In Java Edition zombified piglins spawn in groups of 4 in the Nether at light level 11 and below; In Bedrock Edition they spawn in groups of 2-4 at all light levels. They spawn most commonly in nether wastes, and nether fortresses, uncommonly in crimson forests and are sometimes found riding a strider in lava oceans.
+				Nether portals
+
+				When a nether portal block in the Overworld receives a block tick, there is a chance of 1⁄2000 (0.05%) on Easy, 1⁄1000 (0.1%) on Normal and 3⁄2000 (0.15%) on Hard for it to spawn a zombified piglin.
+
+				In Java Edition, they appear inside one of the portal blocks on the bottom.
+
+				In Bedrock Edition, they spawn one block to the east or south of the portal (depending on which direction the portal is facing). Neither slabs nor lighting prevents this. "Portal ticking" can be used to increase the rate of zombified Piglin spawning by repeatedly lighting and breaking a nether portal.
+
+				Zombified piglin spawning via this process is completely independent of the mob cap, similar to the spawning of phantoms in Java Edition, which means they can still spawn if there are a sufficient number of hostile mobs in the world.
+
+				Zombified piglins who spawn in this way cannot travel to the Nether for a preset amount of time, whether they walk through the portal they spawned in or through nearby portals.‌[JE only]
+				Pigs
+
+				A zombified piglin spawns when lightning strikes within 4 blocks of a pig. If the pig is a piglet, then it transforms into a baby zombified piglin.
+				Piglins
+
+				A piglin or piglin brute that enters the Overworld or The End transforms into a zombified piglin after 15 seconds. When baby piglins transform into zombies, they do not have weapons, unlike baby zombified piglins that naturally spawn, and when piglin brutes transform into zombies, they keep their axes.
+
+				A zombified piglin keeps any armor or weapons collected before being zombified‌[JE only].
+
+				Baby zombified piglins also have a 5% chance of becoming a chicken jockey‌[JE only]. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>5</ataqueFacil>
+					<ataqueNormal>8</ataqueNormal>
+					<ataqueDificil>12</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-1 carne podrida
+				</drop>
+				<drop>
+					0-1 pepita de oro
+				</drop>
+				<drop>
+					0-1 lingote de oro
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Zombified_Piglin
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="blaze" BEId="blaze" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5a/Blaze.gif/revision/latest/scale-to-width-down/150?cb=20200229160235
+			</imagen>
+			<nombre>
+				Blaze
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Blazes are flying hostile mobs found in nether fortresses. 
+			</descripcion>
+			<spawn>
+				Blazes spawn naturally in nether fortresses at a light level of 11 or less.
+				Spawners
+				Blazes spawn from spawners in nether fortresses. They are located on a three-block staircase with a small platform. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>9</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.8" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-1 vara de blaze
+				</drop>
+				<drop>
+					10 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Blaze
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="chicken_jockey_zombie" BEId="chicken_jockey_zombie" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/Chicken_Jockey.png/revision/latest/scale-to-width-down/150?cb=20190804040207
+			</imagen>
+			<nombre>
+				Jinete de pollo
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Chicken jockeys[1] are the rare appearance of a baby zombie, baby zombified piglin, baby zombie villager, baby husk, or baby drowned riding a chicken. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Each baby zombie, baby husk, baby zombie villager, baby zombified piglin, or baby drowned that spawns has a 5% chance to check for an existing chicken within a 10×6×10 box centered on the baby's spawn location and spawn riding one of those chickens if there are any. If it fails that 5% chance to check for existing chickens, there is an additional 5% chance of the baby zombie spawning mounted on a new chicken. In a chicken-free environment, each spawned zombie has a 0.25% chance of becoming a chicken jockey; if chickens are present, the chance increases to 0.4875%.
+
+				Chicken jockeys may spawn with items equipped. Baby zombified piglin versions of the chicken jockey always have a golden sword equipped, while baby drowned versions may have a trident. Although chickens take damage from magma blocks, baby zombified piglin jockeys still spawn on them, killing the chicken and leaving just the baby zombified piglin. Provoking the zombified piglin chicken jockey causes it to attack, like a normal zombified piglin.
+
+				In Java Edition, there is an extremely low chance for a baby zombie villager to spawn wearing enchanted full diamond armor and holding an enchanted iron sword while riding a chicken; this chance is 1 in 1.9921×1035[citation needed], making this mob the rarest in the game. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.3965" ancho="0.5"/>
+			<drops>
+				<drop>
+					0-2 plumas
+				</drop>
+				<drop>
+					1 pollo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+				<drop>
+					0-2 carne podrida
+				</drop>
+				<drop>
+					0-1 patata
+				</drop>
+				<drop>
+					0-1 zanahoria
+				</drop>
+				<drop>
+					0-1 lingote de hierro
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Chicken_Jockey
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="chicken_jockey_drowned" BEId="chicken_jockey_drowned" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/Chicken_Jockey.png/revision/latest/scale-to-width-down/150?cb=20190804040207
+			</imagen>
+			<nombre>
+				Jinete de pollo
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Chicken jockeys[1] are the rare appearance of a baby zombie, baby zombified piglin, baby zombie villager, baby husk, or baby drowned riding a chicken. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Each baby zombie, baby husk, baby zombie villager, baby zombified piglin, or baby drowned that spawns has a 5% chance to check for an existing chicken within a 10×6×10 box centered on the baby's spawn location and spawn riding one of those chickens if there are any. If it fails that 5% chance to check for existing chickens, there is an additional 5% chance of the baby zombie spawning mounted on a new chicken. In a chicken-free environment, each spawned zombie has a 0.25% chance of becoming a chicken jockey; if chickens are present, the chance increases to 0.4875%.
+
+				Chicken jockeys may spawn with items equipped. Baby zombified piglin versions of the chicken jockey always have a golden sword equipped, while baby drowned versions may have a trident. Although chickens take damage from magma blocks, baby zombified piglin jockeys still spawn on them, killing the chicken and leaving just the baby zombified piglin. Provoking the zombified piglin chicken jockey causes it to attack, like a normal zombified piglin.
+
+				In Java Edition, there is an extremely low chance for a baby zombie villager to spawn wearing enchanted full diamond armor and holding an enchanted iron sword while riding a chicken; this chance is 1 in 1.9921×1035[citation needed], making this mob the rarest in the game. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.3965" ancho="0.5"/>
+			<drops>
+				<drop>
+					0-2 plumas
+				</drop>
+				<drop>
+					1 pollo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+				<drop>
+					0-2 carne podrida
+				</drop>
+				<drop>
+					0-1 lingote de oro
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Chicken_Jockey
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="chicken_jockey_husk" BEId="chicken_jockey_husk" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/Chicken_Jockey.png/revision/latest/scale-to-width-down/150?cb=20190804040207
+			</imagen>
+			<nombre>
+				Jinete de pollo
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Chicken jockeys[1] are the rare appearance of a baby zombie, baby zombified piglin, baby zombie villager, baby husk, or baby drowned riding a chicken. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Each baby zombie, baby husk, baby zombie villager, baby zombified piglin, or baby drowned that spawns has a 5% chance to check for an existing chicken within a 10×6×10 box centered on the baby's spawn location and spawn riding one of those chickens if there are any. If it fails that 5% chance to check for existing chickens, there is an additional 5% chance of the baby zombie spawning mounted on a new chicken. In a chicken-free environment, each spawned zombie has a 0.25% chance of becoming a chicken jockey; if chickens are present, the chance increases to 0.4875%.
+
+				Chicken jockeys may spawn with items equipped. Baby zombified piglin versions of the chicken jockey always have a golden sword equipped, while baby drowned versions may have a trident. Although chickens take damage from magma blocks, baby zombified piglin jockeys still spawn on them, killing the chicken and leaving just the baby zombified piglin. Provoking the zombified piglin chicken jockey causes it to attack, like a normal zombified piglin.
+
+				In Java Edition, there is an extremely low chance for a baby zombie villager to spawn wearing enchanted full diamond armor and holding an enchanted iron sword while riding a chicken; this chance is 1 in 1.9921×1035[citation needed], making this mob the rarest in the game. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.3965" ancho="0.5"/>
+			<drops>
+				<drop>
+					0-2 plumas
+				</drop>
+				<drop>
+					1 pollo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+				<drop>
+					0-2 carne podrida
+				</drop>
+				<drop>
+					0-1 patata
+				</drop>
+				<drop>
+					0-1 zanahoria
+				</drop>
+				<drop>
+					0-1 lingote de hierro
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Chicken_Jockey
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="chicken_jockey_zombified_piglin" BEId="chicken_jockey_zombified_piglin" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/Chicken_Jockey.png/revision/latest/scale-to-width-down/150?cb=20190804040207
+			</imagen>
+			<nombre>
+				Jinete de pollo
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Chicken jockeys[1] are the rare appearance of a baby zombie, baby zombified piglin, baby zombie villager, baby husk, or baby drowned riding a chicken. 
+			</descripcion>
+			<spawn>
+				Java Edition
+
+				Each baby zombie, baby husk, baby zombie villager, baby zombified piglin, or baby drowned that spawns has a 5% chance to check for an existing chicken within a 10×6×10 box centered on the baby's spawn location and spawn riding one of those chickens if there are any. If it fails that 5% chance to check for existing chickens, there is an additional 5% chance of the baby zombie spawning mounted on a new chicken. In a chicken-free environment, each spawned zombie has a 0.25% chance of becoming a chicken jockey; if chickens are present, the chance increases to 0.4875%.
+
+				Chicken jockeys may spawn with items equipped. Baby zombified piglin versions of the chicken jockey always have a golden sword equipped, while baby drowned versions may have a trident. Although chickens take damage from magma blocks, baby zombified piglin jockeys still spawn on them, killing the chicken and leaving just the baby zombified piglin. Provoking the zombified piglin chicken jockey causes it to attack, like a normal zombified piglin.
+
+				In Java Edition, there is an extremely low chance for a baby zombie villager to spawn wearing enchanted full diamond armor and holding an enchanted iron sword while riding a chicken; this chance is 1 in 1.9921×1035[citation needed], making this mob the rarest in the game. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>5</ataqueFacil>
+					<ataqueNormal>8</ataqueNormal>
+					<ataqueDificil>12</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.3965" ancho="0.5"/>
+			<drops>
+				<drop>
+					0-2 plumas
+				</drop>
+				<drop>
+					1 pollo crudo
+				</drop>
+				<drop>
+					1-3 experiencia
+				</drop>
+				<drop>
+					0-1 carne podrida
+				</drop>
+				<drop>
+					0-1 pepita de oro
+				</drop>
+				<drop>
+					0-1 lingote de hierro
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Chicken_Jockey
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="creeper" BEId="creeper" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5b/Creeper_JE2_BE1.png/revision/latest/scale-to-width-down/128?cb=20191229172043
+			</imagen>
+			<nombre>
+				Creeper
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A creeper is a common hostile mob that silently approaches players and explodes. Due to their distinctive appearance and high potential for killing unwary players as well as damaging the environment and players' constructions, creepers have become one of the icons of Minecraft, both among players and non-players.
+
+				Creepers are a major source of gunpowder as well as the only way to obtain most music discs. When struck by lightning, a creeper becomes charged, which amplifies its explosion power and enables mob heads to be obtained. 
+			</descripcion>
+			<spawn>
+				Creepers naturally spawn in the Overworld on solid blocks with a light level of 7 or less. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>22</ataqueFacil>
+					<ataqueNormal>43</ataqueNormal>
+					<ataqueDificil>64</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.7" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-2 pólvora
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Creeper
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bc/Drowned_Throwing_Trident.png/revision/latest/scale-to-width-down/152?cb=20191001215839
+			</imagen>
+			<nombre>
+				Ahogado
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				Drowned are common underwater zombie variants that spawn in water or when a zombie drowns. They are also the only source of tridents. 
+			</descripcion>
+			<spawn>
+				Naturally
+				An adult drowned and a baby drowned with a trident.
+
+				Drowned spawn naturally at light level of 7 or less in all ocean biomes (except for warm ocean), and river biomes. They spawn at higher rates in rivers than in other biomes.
+
+				in Java Edition drowned spawn in groups of 1 inside flowing water or source water that is 2 blocks or taller.[more information needed] In ocean biomes, drowned spawn at Y above 58, or at least 6 blocks below sea level; this restriction does not apply to rivers.
+
+				in Bedrock Edition drowned spawn in groups of 2–4 inside flowing water or source water of any depth, but they spawn at higher rates in water that is 2 blocks or taller.[more information needed] They spawn only on the surface, that is, on the highest spawnable block at any given X, Z coordinate; other than that they do not have any specific Y-level spawn limitations. They count toward the monster population control cap and also have their own density caps of 5 in oceans and 2 in rivers.
+
+				Drowned have a greater chance of appearing in ruins and cities.
+
+				Drowned have a chance to spawn with either a trident or a fishing rod, and occasionally with a nautilus shell. in Java Edition they also have a small chance of spawning while riding a chicken, even after drowning as a zombie, creating a drowned chicken jockey. They are the only zombie variant within the game that cannot spawn naturally with any armor.
+				Ocean ruins
+
+				Drowned spawn during the generation of certain ocean ruin structures. These drowned do not naturally despawn unless the world is set to Peaceful difficulty.
+				
+				Conversion
+				If a zombie's head is submerged in water continuously for 30 seconds, it begins the process of converting to a drowned. It starts shaking, similar to the effect seen while a zombie villager is being cured. At this point, the process cannot be stopped, and 15 seconds later the zombie becomes drowned. The drowned appears with full health even if the previous zombie did not.
+
+				If a zombie is holding or wearing a picked-up item when it becomes drowned, it drops the item it is holding or wearing. Items spawned with the zombie drop with the normal 8.5% +1% per Looting level. In Bedrock Edition only, an item being held or worn by a zombie when it becomes drowned, whether it was picked up or naturally spawned, has a 100% drop rate, which includes any naturally spawned equipment dropping with full durability.
+
+				Zombie villagers do not transform, and husks do not transform instantly; instead, they first transform into a regular zombie, and subsequently convert to a drowned in the usual fashion
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>5</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-2 carne podrida
+				</drop>
+				<drop>
+					0-1 lingote de cobre
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Drowned
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="elder_guardian" BEId="elder_guardian" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/75/Elder_Guardian.gif/revision/latest/scale-to-width-down/280?cb=20190925152022
+			</imagen>
+			<nombre>
+				Guardián ancestral
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				An elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue. Three of them spawn inside an ocean monument; one in the penthouse room and one in each wing. 
+			</descripcion>
+			<spawn>
+				Three elder guardians spawn naturally during the generation of each ocean monument: one in the top room of the monument and the other two in each wing section of the monument. They do not respawn after their initial spawn, thus there are a limited number of them per world. 
+			</spawn>
+			<stats>
+				<vida>80</vida>
+				<ataque>
+					<ataqueFacil>5</ataqueFacil>
+					<ataqueNormal>8</ataqueNormal>
+					<ataqueDificil>12</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.9975" ancho="1.9975"/>
+			<drops>
+				<drop>
+					0-2 fragmentos de prismarina
+				</drop>
+				<drop>
+					1 esponja húmeda
+				</drop>
+				<drop>
+					10 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Elder_Guardian
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="endermite" BEId="endermite" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Endermite.gif/revision/latest/scale-to-width-down/200?cb=20200126021254
+			</imagen>
+			<nombre>
+				Endermite
+			</nombre>
+			<tipo>
+				Artrópodo
+			</tipo>
+			<descripcion>
+				Endermites are the smallest hostile mobs in Minecraft. 
+			</descripcion>
+			<spawn>
+				Endermites have a 5% chance to spawn when an ender pearl lands
+			</spawn>
+			<stats>
+				<vida>8</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.3" ancho="0.4"/>
+			<drops>
+				<drop>
+					3 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Endermite
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="evoker" BEId="evoker" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Evoker.png/revision/latest/scale-to-width-down/150?cb=20210120044111
+			</imagen>
+			<nombre>
+				Invocador
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				An evoker is a spell-casting illager found in woodland mansions and raids, and is the only source of the totem of undying. 
+			</descripcion>
+			<spawn>
+				Woodland mansions
+
+				Individual evokers spawn during the generation of particular woodland mansion rooms. They do not respawn after their initial spawn.
+
+				Evokers spawned with mansions do not naturally despawn (unless the world is switched to Peaceful mode‌[JE only]).
+
+				They may also rarely spawn as a raid captain.‌[JE only]
+				Raids
+
+				Evokers can spawn during raids by themselves or riding Ravagers.
+				Java Edition
+
+				Evokers spawn during raids starting at wave 5. Up to 5 evokers spawn on Hard difficulty. During these events, they can be a raid captain. On Hard difficulty, evokers can also spawn riding ravager at Wave 7.
+				Bedrock Edition
+				Up to 5 evokers spawn during raids, with 1 evoker spawning during waves 5 and 6, and 3 evokers spawning during wave 7. One of them rides a ravager during wave 7. 
+			</spawn>
+			<stats>
+				<vida>24</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>9</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					1 tótem de la inmortalidad
+				</drop>
+				<drop>
+					0-1 esmeralda
+				</drop>
+				<drop>
+					10 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Evoker
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="ghast" BEId="ghast" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Ghast_JE2_BE2.gif/revision/latest/scale-to-width-down/220?cb=20201108222940
+			</imagen>
+			<nombre>
+				Ghast
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Ghasts are large white floating jellyfish-like hostile mobs that live in the Nether which shoot explosive fireballs at the player. 
+			</descripcion>
+			<spawn>
+				To spawn naturally, ghasts require a solid block below them and 5×4×5 free space. They spawn only in the basalt deltas, nether wastes, and soul sand valley, all three of which exist only in the Nether dimension, and in any light level. In soul sand valleys, where only skeletons (endermen) and ghasts spawn, ghasts cannot spawn if another ghast is within 16 blocks of spherical distance to the intended spawning location.
+
+				Ghasts do not spawn in nether fortresses, but they can come nearby. Their rarest spawn in nether fortresses is in lava well rooms (the "tentacles" do not require space, though, they may be stuck, unable to move). 
+			</spawn>
+			<stats>
+				<vida>10</vida>
+				<ataque>
+					<ataqueFacil>7</ataqueFacil>
+					<ataqueNormal>12</ataqueNormal>
+					<ataqueDificil>22</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="4.0" ancho="4.0"/>
+			<drops>
+				<drop>
+					0-1 lágrima de Ghast
+				</drop>
+				<drop>
+					0-2 pólvora
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Ghast
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="guardian" BEId="guardian" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/94/Guardian.gif/revision/latest/scale-to-width-down/280?cb=20190925152101
+			</imagen>
+			<nombre>
+				Guardián
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A guardian is a pufferfish-like hostile mob that spawn in and around ocean monuments. They attack players, axolotls, and squid with a laser beam that cannot be dodged or blocked by a shield. 
+			</descripcion>
+			<spawn>
+				Guardians spawn naturally in ocean monuments. They require water to spawn. Specifically, they can spawn only if the spawning block and the block below the spawning block are both water (regardless of stationary water or flowing water), and the block above the spawning block is transparent (air, water, sign, slab, ice, etc.).
+
+				In Java Edition guardians spawn less often in ocean open to the sky than they do in covered areas (i.e. inside the monument). Specifically, spawning fails 95% of the time if the spawning water block is below sea level (Y=63 by default), all blocks between the spawning water block and sea level are liquid or fully transparent, and the block at sea level has a view of the sky. Above sea level, spawning fails 95% of the time if the spawning water block has a view of the sky.
+
+				In Bedrock Edition, guardians are structure spawns, spawning on 25 pre-determined spawning spots. The x-coordinate of each spawning spot is X+2, X+13, X+29, X+45, or X+55, where X is the western edge of the monument. Similarly, the z-coordinate is Z+2, Z+13, Z+29, Z+45, or Z+55. They spawn on the northwest corner of the spawning spot block, meaning they can spawn inside of a portal and get instantly sent to the nether. If their sky access is obstructed by a solid block, the guardians spawn significantly faster. Like all structure spawns, guardians belong to the cave cap.
+
+				Guardians spawn in between Y=39 (floor of the ocean monument) to Y=61 (1 block higher than the topmost block of the monument). 
+			</spawn>
+			<stats>
+				<vida>30</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>9</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.85" ancho="0.85"/>
+			<drops>
+				<drop>
+					0-2 fragmentos de prismarina
+				</drop>
+				<drop>
+					0-1 bacalao crudo
+				</drop>
+				<drop>
+					0-1 cristales de prismarina
+				</drop>
+				<drop>
+					10 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Guardian
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="hoglin" BEId="hoglin" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/00/Hoglin_JE2.png/revision/latest/scale-to-width-down/150?cb=20200417165813
+			</imagen>
+			<nombre>
+				Hoglin
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A hoglin is a warthog-like breedable hostile mob, and the main source of food in the Nether. 
+			</descripcion>
+			<spawn>
+				Hoglins are found in herds of 3–4 in crimson forests, respawning over time. Several spawn in the "hoglin stable" type of bastion remnant upon generation. 5% of hoglins spawn as babies. Hoglins can spawn at any light level and on most blocks other than nether wart block. Despite being able to spawn in any light level, hoglins also cannot spawn on Shroomlights, which are a solid block. Hoglins are part of the hostile mob cap. However, in peaceful difficulty, hoglins that spawn still behave passively.
+			</spawn>
+			<stats>
+				<vida>40</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>8</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.4" ancho="1.3965"/>
+			<drops>
+				<drop>
+					2-4 chuletas de cerdo
+				</drop>
+				<drop>
+					0-1 cuero
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Hoglin
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="husk" BEId="husk" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e4/Husk_JE2_BE2.png/revision/latest/scale-to-width-down/163?cb=20190510101810
+			</imagen>
+			<nombre>
+				Zombie momificado
+			</nombre>
+			<tipo>
+				No muerto
+			</tipo>
+			<descripcion>
+				A husk is a variant of zombie that spawns in deserts. Unlike zombies, husks do not burn in sunlight. 
+			</descripcion>
+			<spawn>
+				Husks spawn at a light level of 7 or less in the desert, desert hills, and desert lakes biomes, mostly replacing zombies in these biomes.
+
+				In Java Edition, husks spawn directly under the sky in groups of 4 in place of 80% of all zombies spawned in desert biomes variants.
+
+				In Bedrock Edition, husks spawn on the surface and underground in groups of 2-4 in place of 70% of all zombies spawned in desert biomes. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-2 carne podrida
+				</drop>
+				<drop>
+					0-1 patata
+				</drop>
+				<drop>
+					0-1 zanahoria
+				</drop>
+				<drop>
+					0-1 lingote de hierro
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Husk
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="big_magma_cube" BEId="big_magma_cube" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Magma_Cube.png/revision/latest/scale-to-width-down/150?cb=20190805151823
+			</imagen>
+			<nombre>
+				Cubo de magma grande
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A magma cube is a hostile mob found in the Nether. A magma cube behaves like a slime, but is stronger and more dangerous. 
+			</descripcion>
+			<spawn>
+				They are found in areas of the Nether at all light levels. The space they spawn in must be clear of solid obstructions and liquids.
+
+				Only sizes 1, 2, and 4 (NBT Size tag values 0, 1 and 3 respectively) spawn naturally. With use of /summon, magma cubes can potentially range from size 1 to 256 (NBT Size tag 0–255).
+
+				Big magma cubes require a 3×2½×3 space to spawn, small magma cubes require a 3×2×3 space, and tiny magma cubes require a 1×2×1 space (or 1×1×1 if the upper block is not opaque).[1]
+
+				Magma cubes' size is affected by regional difficulty: chances range from 33% for each size at the low difficulty to 16% small, 33% medium, and 50% big with higher difficulty.
+				Nether Wastes
+
+				Magma cubes spawn uncommonly in nether wastes in groups of 1 to 4.
+				Nether Fortresses
+
+				Magma cubes spawn commonly in fortresses in groups of 4.
+				Basalt Deltas
+
+				Magma cubes spawn commonly in basalt deltas groups of 2 to 5.
+				Spawners
+				Magma cube spawners generate in the treasure room of bastions. 
+			</spawn>
+			<stats>
+				<vida>16</vida>
+				<ataque>
+					<ataqueFacil>4</ataqueFacil>
+					<ataqueNormal>6</ataqueNormal>
+					<ataqueDificil>9</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="2.0808" ancho="2.04"/>
+			<drops>
+				<drop>
+					0-1 crema de magma
+				</drop>
+				<drop>
+					4 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Magma_Cube
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="medium_magma_cube" BEId="medium_magma_cube" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Magma_Cube.png/revision/latest/scale-to-width-down/150?cb=20190805151823
+			</imagen>
+			<nombre>
+				Cubo de magma mediano
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A magma cube is a hostile mob found in the Nether. A magma cube behaves like a slime, but is stronger and more dangerous. 
+			</descripcion>
+			<spawn>
+				They are found in areas of the Nether at all light levels. The space they spawn in must be clear of solid obstructions and liquids.
+
+				Only sizes 1, 2, and 4 (NBT Size tag values 0, 1 and 3 respectively) spawn naturally. With use of /summon, magma cubes can potentially range from size 1 to 256 (NBT Size tag 0–255).
+
+				Big magma cubes require a 3×2½×3 space to spawn, small magma cubes require a 3×2×3 space, and tiny magma cubes require a 1×2×1 space (or 1×1×1 if the upper block is not opaque).[1]
+
+				Magma cubes' size is affected by regional difficulty: chances range from 33% for each size at the low difficulty to 16% small, 33% medium, and 50% big with higher difficulty.
+				Nether Wastes
+
+				Magma cubes spawn uncommonly in nether wastes in groups of 1 to 4.
+				Nether Fortresses
+
+				Magma cubes spawn commonly in fortresses in groups of 4.
+				Basalt Deltas
+
+				Magma cubes spawn commonly in basalt deltas groups of 2 to 5.
+				Spawners
+				Magma cube spawners generate in the treasure room of bastions. 
+			</spawn>
+			<stats>
+				<vida>4</vida>
+				<ataque>
+					<ataqueFacil>3</ataqueFacil>
+					<ataqueNormal>4</ataqueNormal>
+					<ataqueDificil>6</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.0404" ancho="1.02"/>
+			<drops>
+				<drop>
+					0-1 crema de magma
+				</drop>
+				<drop>
+					2 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Magma_Cube
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="small_magma_cube" BEId="small_magma_cube" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Magma_Cube.png/revision/latest/scale-to-width-down/150?cb=20190805151823
+			</imagen>
+			<nombre>
+				Cubo de magma pequeño
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A magma cube is a hostile mob found in the Nether. A magma cube behaves like a slime, but is stronger and more dangerous. 
+			</descripcion>
+			<spawn>
+				They are found in areas of the Nether at all light levels. The space they spawn in must be clear of solid obstructions and liquids.
+
+				Only sizes 1, 2, and 4 (NBT Size tag values 0, 1 and 3 respectively) spawn naturally. With use of /summon, magma cubes can potentially range from size 1 to 256 (NBT Size tag 0–255).
+
+				Big magma cubes require a 3×2½×3 space to spawn, small magma cubes require a 3×2×3 space, and tiny magma cubes require a 1×2×1 space (or 1×1×1 if the upper block is not opaque).[1]
+
+				Magma cubes' size is affected by regional difficulty: chances range from 33% for each size at the low difficulty to 16% small, 33% medium, and 50% big with higher difficulty.
+				Nether Wastes
+
+				Magma cubes spawn uncommonly in nether wastes in groups of 1 to 4.
+				Nether Fortresses
+
+				Magma cubes spawn commonly in fortresses in groups of 4.
+				Basalt Deltas
+
+				Magma cubes spawn commonly in basalt deltas groups of 2 to 5.
+				Spawners
+				Magma cube spawners generate in the treasure room of bastions. 
+			</spawn>
+			<stats>
+				<vida>16</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>3</ataqueNormal>
+					<ataqueDificil>4</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.5202" ancho="0.51"/>
+			<drops>
+				<drop>
+					1 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Magma_Cube
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="phantom" BEId="phantom" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/00/Phantom_JE2_BE1.gif/revision/latest/scale-to-width-down/296?cb=20180706142237
+			</imagen>
+			<nombre>
+				Fantasma
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				Phantoms are common undead bat-like hostile mobs that spawn when the player has not slept for three or more in-game days. 
+			</descripcion>
+			<spawn>
+				Phantoms spawn unless the game rule doInsomnia is set to false. The spawning mechanics differ between Java and Bedrock editions. In both editions, they spawn in the Overworld above the player if the "since last rest" statistic is at least 1 hour (72000 ticks or 3 in-game days). This statistic is reset when the player enters a bed, dies, or switches the doInsomnia gamerule from false to true. Furthermore, the player must not have a block overhead that blocks light in any way; for example, leaves prevent phantoms from spawning as they have a light opacity of 2, but glass does not, as its light opacity is 0. Phantoms do not spawn in spectator mode,‌[JE only] but they do spawn in creative mode.
+				Bedrock Edition
+
+				Phantom spawning is similar to other monsters spawning: the spawn location must have a light level of 7 or less, and spawns are limited by the monster population cap. Phantoms are also subject to a density cap of 5. Phantom spawn attempts are made on surface blocks throughout the same spawn radius as other monsters. However, when a phantom spawn attempt succeeds the phantom appears somewhere in a 21 x 15 x 21 cube centered 28 blocks above the player instead of at the block where the spawn attempt occurred.
+
+				They are most common if the player is at Y=75.[1][verify]
+				Java Edition
+
+				Phantoms attempt to spawn every 1–2 minutes. They spawn only if it is night or a thunderstorm is happening, the player is above sea level (y=64) with sky access, and the local difficulty is greater than a randomly chosen value between 0.0 and 3.0. The chance of a successful spawn is x−72000⁄x, where x is the number of ticks since the player last entered a bed or died. This roughly comes to a 1⁄4 (25.0%) chance on day 4, a 2⁄5 (40.0%) chance on day 5, a 3⁄6 (1⁄2) (50.0%) chance on day 6, 4⁄7 (about 57.1%) chance on day 7, and so on.
+
+				If all conditions are met, a group of phantoms attempt to spawn 20–34 blocks above the player, and off to the side by a taxicab distance of up to 10 blocks. The number of phantoms spawned is 1-2 in Easy difficulty, 1-3 in Normal, and 1-4 in Hard.
+
+				Phantoms are counted toward the hostile mob cap, but they don't adhere to it when spawning. Their spawning mechanic is based on the location of players in the world rather than by chance, unlike regular mob spawning. 
+			</spawn>
+			<stats>
+				<vida>20</vida>
+				<ataque>
+					<ataqueFacil>2</ataqueFacil>
+					<ataqueNormal>2</ataqueNormal>
+					<ataqueDificil>3</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="0.5" ancho="0.9"/>
+			<drops>
+				<drop>
+					0-1 membrana de fantasma
+				</drop>
+				<drop>
+					5 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Phantom
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="piglin_brute" BEId="piglin_brute" grupo="hostil" >
+			<imagen>
+				https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5b/Piglin_Brute.png/revision/latest/scale-to-width-down/200?cb=20200629172158
+			</imagen>
+			<nombre>
+				Piglin bruto
+			</nombre>
+			<tipo>
+				Ser vivo
+			</tipo>
+			<descripcion>
+				A piglin brute is a hostile, stronger variant of piglins that appears in all types of bastion remnants. 
+			</descripcion>
+			<spawn>
+				A small number of piglin brutes spawn in bastion remnants only upon generation and in some rooms, not having a baby variant.
+
+				A piglin brute has a chance of spawning holding an enchanted golden axe, without armor, and never equips armor from the ground. 
+			</spawn>
+			<stats>
+				<vida>50</vida>
+				<ataque>
+					<ataqueFacil>7</ataqueFacil>
+					<ataqueNormal>13</ataqueNormal>
+					<ataqueDificil>19</ataqueDificil>
+				</ataque>
+			</stats>
+			<hitbox alto="1.95" ancho="0.6"/>
+			<drops>
+				<drop>
+					0-1 hacha de oro
+				</drop>
+				<drop>
+					20 experiencia
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				https://minecraft.gamepedia.com/Piglin_Brute
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+		
+		<mob javaId="" BEId="" grupo="" >
+			<imagen>
+				
+			</imagen>
+			<nombre>
+				
+			</nombre>
+			<tipo>
+				
+			</tipo>
+			<descripcion>
+				
+			</descripcion>
+			<spawn>
+				
+			</spawn>
+			<stats>
+				<vida></vida>
+				<ataque>
+					<ataqueFacil></ataqueFacil>
+					<ataqueNormal></ataqueNormal>
+					<ataqueDificil></ataqueDificil>
+					<sinDano/>
+				</ataque>
+			</stats>
+			<hitbox alto="" ancho=""/>
+			<drops>
+				<drop>
+					
+				</drop>
+			</drops>
+			<enlaceMinecraftWiki>
+				
+			</enlaceMinecraftWiki>
+		</mob>
+	</mobs>
+</Minecraft>

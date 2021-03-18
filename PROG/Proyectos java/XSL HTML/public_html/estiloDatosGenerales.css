@@ -1,0 +1,36 @@
+
+h1{display:inline-block}
+
+img{width: 50%;height:auto;
+    display: block;
+    margin:1em auto}
+
+.datos{float:right;
+       width: 33%;
+       margin:3%;
+       display:inline-block;
+       border: ridge 2px black;
+    }
+
+.datos table{width:90%;
+             margin: 0 auto;
+             
+    border:2px solid  black;
+}
+
+.datos table tr{border:2px solid  black;
+}
+
+.datos table tr th{border:2px solid  black;
+}
+
+.datos table tr td{border:2px solid  black;
+                  text-align: center;
+}
+
+.registro{width: 90%;
+       float:left;
+       padding:5%;
+       border:solid 2px black ;
+       
+    }

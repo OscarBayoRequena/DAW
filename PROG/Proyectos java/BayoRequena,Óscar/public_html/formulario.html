@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link rel="stylesheet" type="text/css" href="hoja_de_estilo.css" media="screen">
+    </head>
+    <body>        
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label><br/>
+                <input type="text" name="nombre"  />
+		<br/>
+                <label for="apellidos">Apellidos</label><br/>
+                <input type="text" name="apellidos" />
+		<br/>
+                <br/>
+                Sexo <br/>
+                <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+                <input type="radio" name="sexo" value="mujer" /> Mujer
+                <br/>
+                <br/>
+                Puestos de trabajo buscados <br/>
+                <input name="puesto_directivo" type="checkbox" value="direccion"/> Dirección
+                <input name="puesto_tecnico" type="checkbox" value="tecnico"/> Técnico
+                <input name="puesto_empleado" type="checkbox" value="empleado"/> Empleado
+                <br/>
+                <br/>
+                <label for="fecha">Fecha de nacimiento</label> 
+                <select id="so" name="fecha">
+                    <option value="" selected="selected"> dd/mm/aaaa</option>
+                </select>
+                <br/>
+                <br/>
+                <label for="estudios">Estudios realizados</label> <br/>
+                <select id="so3" name="estudios" size="5" multiple="multiple">
+		<option value="ESO" >ESO</option>
+		<option value="Grado medio">Grado medio</option>
+		<option value="Grado superior">Grado superior</option>
+		<option value="Universidad">Universidad</option>
+                </select>
+                <input type="submit" name="enviar" value="Enviar" />
+                <input type="reset" name="limpiar" value="Limpiar formulario" />
+
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
